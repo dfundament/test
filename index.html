@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>header</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <header class="header">
+        <div class="container-xl">
+            <div class="header__inner">
+                <div class="header__upper">
+                    <div class="header__logo col"><img src="./assets/images/logo.png" alt=""></div>
+                    <div class="header__info col-6">
+                        <div class="header__telephone">
+                            <img class="info__img" src="./assets/images/icons/phone.svg" alt="">
+                            <p class="telephone">8 (495) 212 85 06</p>
+                        </div>
+                        <div class="header__hours">
+                            <p class="hours__span">Время работы:</p>
+                            <p class="hours__text">Пн-Вс 10-19</p>
+                        </div>
+                    </div>
+                    <div class="header__func col">
+                        <div class="func__line">
+                            <div class="func__item">
+                                <img class="func__img" src="./assets/images/icons/profile.svg" alt="">
+                                <a class="func__link" href="#">Войти</a>
+                            </div>
+                            <div class="func__item">
+                                <a class="func__link" href="#">Регистрация</a>
+                            </div>
+                        </div>
+                        <div class="func__line">
+                            <div class="func__item">
+                                <img class="func__img" src="./assets/images/icons/cart.svg" alt="">
+                                <a class="func__link" href="#">Корзина</a>
+                            </div>
+                            <div class="func__item">
+                                <p>0 позиций</p>
+                            </div>
+                        </div>
+                        <div class="func__line">
+                            <p>На сумму <span class="func__text">0 грн.</span></p>
+                        </div>
+                    </div>
+                </div> <!-- /header__upper -->
+                <div class="header__bottom">
+                    <div class="header__orange">
+                        <nav>
+                            <ul class="nav__list">
+                                <li data-collapse="menu">
+                                    <a class="nav__link" href="#">Обувь <span class="arrow"></span></a>
+                                    <ul class="sub-nav__list" id="menu">
+                                        <li>
+                                            <a class="sub-nav__link" href="#">Пантолеты</a>
+                                        </li>
+                                        <li>
+                                            <a class="sub-nav__link" href="#">Тапочки</a>
+                                        </li>
+                                        <li>
+                                            <a class="sub-nav__link" href="#">Туфли</a>
+                                                <ul class="sub-sub-nav__list">
+                                                    <li>
+                                                        <a class="sub-sub-nav__link" href="#">Туфли Женские</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="sub-sub-nav__link" href="#">Туфли Мужские</a>
+                                                    </li>
+                                                </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="nav__link" href="#">Платья</a>
+                                </li>
+                                <li>
+                                    <a class="nav__link" href="#">Штаны</a>
+                                </li>
+                                <li>
+                                    <a class="nav__link" href="#">Нижнее белье</a>
+                                </li>
+                                <li>
+                                    <a class="nav__link" href="#">Футболки</a>
+                                </li>
+                                <li>
+                                    <a class="nav__link" href="#">Спортивная одежда</a>
+                                </li>
+                                <li data-collapse="nav">
+                                    <a class="nav__link" href="#">Аксессуары<span class="arrow"></span></a>
+                                    <ul class="sub-nav__list" id="nav">
+                                        <li>
+                                            <a class="sub-nav__link" href="#">Ремни</a>
+                                        </li>
+                                    </ul>
+                                </li>   
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="./assets/js/script.js"></script>
+</body>
+</html>
