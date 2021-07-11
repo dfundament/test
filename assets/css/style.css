@@ -111,11 +111,11 @@ ul {
 }
 
 .func__line:last-child {
-    padding-left: 33px;
+    padding-left: 35px;
 }
 
 .func__item {
-    margin-left: 12px;
+    margin-left: 14px;
     font-weight: 400;
     font-size: 13px;
 }
@@ -138,8 +138,6 @@ ul {
 .nav__list {
     display: flex;
     flex-wrap: wrap;
-    
-    
     text-transform: uppercase;
 }
 
