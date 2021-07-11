@@ -17,12 +17,15 @@ ul {
 }
 
 .container-md.mx {
-    max-width: 1140px;
+    max-width: 1136px;
 }
 
 /* Header */
 .header {
     z-index: 100000;
+    position: relative;
+    top: -2px;
+    left: -7px;
 }
 
 .header__upper {
@@ -47,7 +50,9 @@ ul {
 
 .header__func {
     font-size: 13px!important;
+    font-family: Arial, Helvetica, sans-serif;
     align-items: flex-start;
+    padding-top: 5px;
 }
 
 .header__func .func__line{
@@ -56,8 +61,8 @@ ul {
 }
 
 .info__img {
-    width: 27px;
-    height: 27px;
+    width: 26px;
+    height: 26px;
     margin-right: 10px;
 }
 
@@ -74,7 +79,9 @@ ul {
 }
 
 .telephone {
-    font: 700 21px/28px "Open Sans";
+    font-size: 21px;
+    font-family: "Open Sans";
+    font-weight: 600;
 }
 
 .hours__span {
@@ -94,7 +101,7 @@ ul {
 }
 
 .func__line:first-child {
-    margin-bottom: 0.35rem!important;
+    margin-bottom: 0.25rem!important;
 }
 
 .func__img {
@@ -104,11 +111,11 @@ ul {
 }
 
 .func__line:last-child {
-    padding-left: 20px;
+    padding-left: 33px;
 }
 
 .func__item {
-    margin-right: 10px;
+    margin-left: 12px;
     font-weight: 400;
     font-size: 13px;
 }
@@ -138,8 +145,8 @@ ul {
 
 .nav__list li {
     list-style: none;
-    padding-top: 6px;
-    padding-bottom: 2px;
+    padding-top: 5px;
+    padding-bottom: 1px;
 }
 
 .nav__list .nav__link {
