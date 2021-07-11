@@ -15,11 +15,11 @@
 <body>
     
     <header class="header">
-        <div class="container-xl">
+        <div class="container-md mx">
             <div class="header__inner">
                 <div class="header__upper">
-                    <div class="header__logo col"><img src="./assets/images/logo.png" alt=""></div>
-                    <div class="header__info col-6">
+                    <div class="header__logo col-auto"><img src="./assets/images/logo.png" alt=""></div>
+                    <div class="header__info col">
                         <div class="header__telephone">
                             <img class="info__img" src="./assets/images/icons/phone.svg" alt="">
                             <p class="telephone">8 (495) 212 85 06</p>
@@ -29,7 +29,7 @@
                             <p class="hours__text">Пн-Вс 10-19</p>
                         </div>
                     </div>
-                    <div class="header__func col">
+                    <div class="header__func col-auto">
                         <div class="func__line">
                             <div class="func__item">
                                 <img class="func__img" src="./assets/images/icons/profile.svg" alt="">
@@ -45,23 +45,27 @@
                                 <a class="func__link" href="#">Корзина</a>
                             </div>
                             <div class="func__item">
-                                <p>0 позиций</p>
+                                <div>0 позиции</div>
                             </div>
                         </div>
                         <div class="func__line">
-                            <p>На сумму <span class="func__text">0 грн.</span></p>
+                            <div>на сумму <span class="func__text">0 грн.</span></div>
                         </div>
                     </div>
                 </div> <!-- /header__upper -->
                 <div class="header__bottom">
                     <div class="header__orange">
-                        <nav>
+                        <nav class="header__menu">
                             <ul class="nav__list">
                                 <li data-collapse="menu">
-                                    <a class="nav__link" href="#">Обувь <span class="arrow"></span></a>
+                                    <a class="nav__link sub" href="#">Обувь <span class="arrow" id="arrow1"></span></a>
                                     <ul class="sub-nav__list" id="menu">
-                                        <li>
+                                        <li class="sub-nav">
                                             <a class="sub-nav__link" href="#">Пантолеты</a>
+                                            <!-- <div class="sub-nav__block">
+                                                <img src="./assets/images/pantoleti.jpg" alt="">
+                                                <div>Женские пантолеты – обувь, которая только с виду кажется непрактичной и простой. На самом деле, эти легкие и изящные шлепанцы универсальны: современные девушки все чаще выбирают их не только в качестве пляжной обуви, но и как удобный вариант на каждый день. Конечно, такая обувь в рамках офисного образа вряд ли станет удачным решением, однако в остальном у представительниц прекрасного пола – абсолютная свобода выбора.</div>
+                                            </div> -->
                                         </li>
                                         <li>
                                             <a class="sub-nav__link" href="#">Тапочки</a>
@@ -95,7 +99,7 @@
                                     <a class="nav__link" href="#">Спортивная одежда</a>
                                 </li>
                                 <li data-collapse="nav">
-                                    <a class="nav__link" href="#">Аксессуары<span class="arrow"></span></a>
+                                    <a class="nav__link sub" href="#">Аксессуары<span class="arrow" id="arrow2"></span></a>
                                     <ul class="sub-nav__list" id="nav">
                                         <li>
                                             <a class="sub-nav__link" href="#">Ремни</a>

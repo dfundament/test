@@ -11,11 +11,13 @@
                 event.preventDefault();
         
                 $("[id='menu']").toggleClass("active");
+                $("[id='arrow1']").toggleClass("orange");
             });
             $("[data-collapse='nav']").hover(function(event) {
                 event.preventDefault();
         
                 $("[id='nav']").toggleClass("active");
+                $("[id='arrow2']").toggleClass("orange");
             });
         }
 
